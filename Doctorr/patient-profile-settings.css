@@ -1,0 +1,72 @@
+/* styles form control height */
+.contro-height {
+    height: 3.5rem;
+}
+/* styles form headings */
+.fieldHeader {
+    color:cadetblue;
+}
+/* styles body content overflow */
+body {
+    overflow-x: hidden;
+}
+/* styles navbar brand logo */
+.logo {
+    width: 170px; 
+    height: 38px; 
+}
+/* styles main content of web page */
+.body-section {
+    height: 100vh;
+}
+/* centers the page heading */
+header{
+    display: flex;
+    justify-content: center;
+}
+/* styles heading font size */
+header h1 {
+    font-size: 1.3rem;
+}
+/* styles invalid form control border color */
+.invalid-input-val:invalid {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+/* styles error message */
+ .error-msg {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 0, 0);
+}
+/* styles form control height */
+.control-height {
+    height: 3.5rem;
+ }
+ /* styles .sub-navigation bar */
+ .sub-navigation{
+    text-align: right;
+    background-color: #292b2ca4;
+    color: #f7f7f7;
+}
+.sub-navigation a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.sub-navigation a:hover {
+    font-weight: 500;
+}
+.sub-navigation span{
+    color: #f7f7f7b0;
+}
+/* styles success message*/
+.success-msg {
+    display: flex;
+    justify-content: center;
+    color:rgb(0, 161, 0);
+}
+/* styles main content */
+.body-section-2 {
+    height: 65vh;
+    overflow-y: scroll;
+}

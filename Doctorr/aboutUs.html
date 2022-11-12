@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Janith Thilanka">
+        <title>Doctorr | About Us</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!-- Adds bootstrap CSS to webpage -->
+        <script src="js/bootstrap.min.js"></script> <!-- Add Bootstrap scripts to page -->
+        <link rel="stylesheet" type="text/css" href="About_Us.css"> <!-- Links custom CSS style sheets to webpage -->
+    </head>
+    <body>
+        <header id="pageHeader">
+            <div class="fixed-top"> <!-- Both navigation bars have their positions fixed to the top of page-->
+                <!-- First Navigation bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="Doctorr Logo"></a> <!-- Navigation bar brand -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a> <!-- Inactive Navigation bar link -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="aboutUs.html">About Us</a> <!-- styles acitve navigation bar link-->
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+                <!-- Second Navigation bar -->
+                <!-- Aligns sub-navigation bar -->
+                <nav class="container-fluid sub-navigation pb-1">
+                    <div class="row justify-content-end">
+                        <!-- Responsive Horizontal alignment -->
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                            <span>Sign-in:</span> <a href="signInPatients.php">As Patient</a> <span>|</span> <a href="signInDoctors.php">As Doctor</a>
+                        </div>
+                        <!-- Responsive Horizontal alignment -->
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                            <span>Register:</span> <a href="signUpPatients.php">As Patient</a> <span>|</span> <a href="signUpDoctors.php">As Doctor</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Aligns main content of page -->
+        <div class="container-fluid">
+            <div class="row align-items-center workspace">
+                <div class="container-fluid py-5">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="row mt-5 pt-5 px-5">
+                                <div class="col">
+                                    <h1 class="display-4">About Geek Pirates</h1> <!-- Heading -->
+                                </div>
+                            </div>
+                            <div class="row px-5">
+                                <div class="col">
+                                    <!-- About us text -->
+                                    <p class="text-justify lead">
+                                        We are a team of Sri Lankan Developers with a vision to utilize the constantly evolving 
+                                        technology to its maximum potential to improve the <strong>Sri Lankan</strong> way of life,
+                                        and contribute to achieving the Social Development Goals (SDGs) set by the United Nations.
+                                    </p>
+                                    <div class="lead">
+                                        <small>&copy;Geek&nbsp;Pirates&nbsp;2021</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Responsive width adjustment -->
+                        <div class="col col-lg-6 col-12 text-center mt-5 pt-lg-5">
+                            <img src="images/gp_logo.png" class="img-fluid gp-logo"> <!-- image -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

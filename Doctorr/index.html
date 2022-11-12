@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Webpage language is defined as English -->
+    <head>
+        <!-- Sets viewport to be resposive to screen size and intial magnification to 100% -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sets encoding to UTF-8 -->
+        <meta charset="UTF-8">
+        <!-- Sets author of the webpage -->
+        <meta name="author" content="IU Ratnayake">
+        <!--Sets title of the webpage-->
+        <title>Doctorr | Home</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!-- Adds bootstrap CSS to webpage -->
+        <script src="js/bootstrap.min.js"></script> <!-- Add Bootstrap scripts to page -->
+        <link rel="stylesheet" type="text/css" href="index-styles.css"> <!-- Links custom CSS style sheets to webpage -->
+    </head>
+    <body>
+        <!-- Page Header -->
+        <header id="pageHeader">
+            <div class="fixed-top"> <!-- Both navigation bars have their positions fixed to the top of page-->
+                <!-- First Navigation bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="Doctorr Logo"></a><!-- Adds navigation bar brand -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a><!-- Styles active link -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutUs.html">About Us</a><!-- Styles inactive link -->
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+                <!-- Second Navigation bar -->
+                <!-- Aligns the second/sub navigation bar -->
+                <nav class="container-fluid sub-navigation pb-1">
+                    <div class="row justify-content-end">
+                        <!-- Responsive width adjustment -->
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                            <!-- Links to Patient and Doctor Sign in pages -->
+                            <span>Sign-in:</span> <a href="signInPatients.php">As Patient</a> <span>|</span> <a href="signInDoctors.php">As Doctor</a>
+                        </div>
+                        <!-- Responsive width adjustment -->
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                            <!-- Links to Patient and Doctor Sign up pages -->
+                            <span>Register:</span> <a href="signUpPatients.php">As Patient</a> <span>|</span> <a href="signUpDoctors.php">As Doctor</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- First seciton -->
+        <!-- Aligns sector -->
+        <section class="container-fluid section-1" id="section1">
+            <div class="h-100 d-flex align-items-center pt-5">
+                <div class="p-4" id="section1Text"> <!-- text in the first section -->
+                    <h1><strong>Find</strong> the <strong>best doctor</strong> for&nbsp;<strong>you</strong>.</h1>
+                    <p>
+                        <strong>Locate</strong> the <strong>best doctors</strong> in <strong>Sri&nbsp;Lanka</strong> at <strong>your convinience</strong>.<br>
+                        <span class="bold">Patients:</span>&nbsp;&nbsp;&nbsp;<a href="signInPatients.php" class="btn btn-primary">Sign-in</a> <a href="signUpPatients.php" class="btn btn-primary">Sign-up</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Second section -->
+        <!-- Aligns sector -->
+        <section class="container-fluid section-2 mt-5 mb-5">
+            <div class="row h-100 align-items-center">
+                <!-- Second section image -->
+                <!-- responsive width adjustment -->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+                    <img src="images/temp2.png" class="img-fluid temp-img"> <!-- Adds image -->
+                </div>
+                <!-- Second section text-->
+                <!-- responsive width adjustment -->
+                <div class="col-lg-5 col-md-10 col-sm-11 col-11">
+                    <div class="section-2-text p-3">
+                    <!-- Adds text of sector 2 -->
+                    <ul>
+                        <li>Search for doctors by name, specialization and location.</li>
+                        <li>Discover their work schedules and make your appointments at your own convinience.</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 3 - Utlizes same styles as section 1 -->
+        <!-- Aligns sector -->
+        <section class="container-fluid section-3">
+            <div class="h-100 d-flex align-items-center">
+                <div class="p-4" id="section3Text">
+                    <!-- Sector text -->
+                    <h1><strong>Create</strong> your <strong>Work Profile</strong>.</h1>
+                    <p>
+                        Let <strong>patients</strong> know <strong>where you are</strong> and <strong>why you can</strong> provide the <strong>best service</strong>.<br>
+                        <span class="bold">Doctors:</span>&nbsp;&nbsp;&nbsp;<a href="signInDoctors.php" class="btn btn-primary">Sign-in</a> <a href="signUpDoctors.php" class="btn btn-primary">Sign-up</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Section 4 - Utlizes same styles as section 2 -->
+        <!-- Aligns sector-->
+        <section class="container-fluid section-2 mt-5 mb-5">
+            <div class="row h-100 align-items-center">
+                <!-- Responsive width adjustment -->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+                    <img src="images/temp1.png" class="img-fluid temp-img"> <!-- Sector image -->
+                </div>
+                <!-- Responsive width adjustment -->
+                <div class="col-lg-5 col-md-10 col-sm-11 col-11">
+                    <div class="section-2-text p-3">
+                        <!-- sector text -->
+                        <ul>
+                            <li>Create your work profile. Let your patients know why you are the most qualified doctor for them.</li>
+                            <li>Let your patients to easily find you, by creating a work schedule.</li>
+                            <li>Easily customise your profile, to your liking.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Site map -->
+        <!-- Sector Alignment -->
+        <section class="container-fluid bg-light p-2 section-footer">
+            <div class="row">
+                <!-- responsive width alignment -->
+                <div class="col col-md-6 col-12 text-center p-5">
+                    <h1>Services</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item  bg-light text-muted border-0">
+                            Patients
+                            <ul class="list-group">
+                                <li class="list-group-item bg-light border-0"><a href="signInPatients.php">Sign-in</a></li>
+                                <li class="list-group-item bg-light border-0"><a href="signUpPatients.php">Sign-up</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item bg-light text-muted border-0">
+                            Doctors
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-light border-0"><a href="signInDoctors.php">Sign-in</a></li>
+                                <li class="list-group-item bg-light border-0"><a href="signUpDoctors.php">Sign-up</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- responsive width alignment -->
+                <div class="col col-md-6 col-12 text-center p-5">
+                    <h1>About</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item  bg-light text-muted border-0"><a href="aboutUs.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <!-- aligns footer -->
+        <footer class="container-fluid bg-dark">
+            <div class="row justify-content-end py-3">
+                <div class="col-4 text-center align-self-center">
+                    <small class="text-muted">&copy;Geek Pirates 2021</small> <!-- Footer text-->
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <a href="index.html#pageHeader" class="btn btn-dark bold" id="topbtn">&And;</a> <!-- Go to top button -->
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

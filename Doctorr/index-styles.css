@@ -1,0 +1,85 @@
+/* Styles to overall web page */
+body {
+    overflow-x: hidden;
+}
+.bold {
+    font-weight: bold;
+}
+/*Logo size*/
+.logo {
+    width: 170px; 
+    height: 38px; 
+}
+/* Styles to second navigation bar */
+.sub-navigation{
+    text-align: right;
+    background-color: #292b2ca4;
+}
+.sub-navigation a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.sub-navigation a:hover {
+    font-weight: 500;
+}
+.sub-navigation span{
+    color: #f7f7f7b0;
+}
+/* Style to section 1 */
+.section-1 {
+    height: 100vh;
+    background-image: url(images/Background-1.jpg);
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+#section1Text {
+    width: 100%;
+}
+#section1Text h1 {
+    font-size: 2.75rem;
+}
+#section1Text strong {
+    color: rgb(23, 23, 172);
+}
+#section1Text p {
+    font-size: 1.5rem;
+}
+/* Styles to section 3 */
+#section3Text {
+    width: 100%;
+}
+#section3Text h1 {
+    font-size: 2.75rem;
+}
+#section3Text strong {
+    color: rgb(23, 23, 172);
+}
+#section3Text p {
+    font-size: 1.5rem;
+}
+.section-3 {
+    height: 100vh;
+    background-image: url(images/Background-2.jpg);
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+/* Styles to section 2 and 4 */
+.section-2 {
+    height: auto;
+}
+.section-2-text {
+    font-size: 1.2rem;
+}
+/* Styles to site map */
+.section-footer a {
+    text-decoration: none;
+    color: #292b2c;
+}
+.section-footer a:hover {
+    font-weight: 500;
+}
+.section-footer h1 {
+    font-size: 1.75rem;
+}

@@ -1,0 +1,27 @@
+/* style to overall webpage */
+body {
+   overflow-x: hidden;
+}
+/* style parent container of form */
+.body-section {
+   height: 90vh;
+}
+/* Style height of form controls */
+.control-height {
+   height: 3.5rem;
+}
+/* font size of header tag text */
+header h1 {
+   font-size: 1.8rem;
+}
+/* invalid input control styles */
+.invalid-input-val:invalid {
+   border-color: #FF0000;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+/* Styles error messages */
+.error-msg {
+   display: flex;
+   justify-content: center;
+   color:rgb(255, 0, 0);
+}
